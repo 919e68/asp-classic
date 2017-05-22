@@ -1,0 +1,607 @@
+/* Consolidation of fonts (*shielf your eyes, there are many of them!). Families, then sizes and weights */
+
+/* Families */
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+
+/* 
+h1 {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+h2 {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+h3 {font-family: Arial, Helvetica, sans-serif;}
+h4 {font-family: "Trebuchet MS", Verdana, Helvetica, Arial, Sans-serif;}
+.pagination li.active span {font-family: "Open Sans", "Droid Sans", Verdana, Arial, Helvetica;}
+.dropdown-extended .header {font-family: Arial, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.notification_list p.notifications_title {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.button {font-family: "Open Sans", "Droid Sans", Verdana, Arial, Helvetica;}
+li.header dt, li.header dd {font-family: Arial, Helvetica, sans-serif;}
+.postbody h3 {font-family: "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;}
+.content {font-family: "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;}
+.content p {font-family: "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;}
+dl.faq {font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;}
+p.author {font-family: Verdana, Helvetica, Arial, sans-serif;}
+.notice {font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;}
+.attachbox dt {font-family: Arial, Helvetica, sans-serif;}
+dl.file {font-family: Verdana, Arial, Helvetica, sans-serif;}
+dl.file dt {font-family: Verdana, Arial, Helvetica, sans-serif;}
+dl.thumbnail dd {font-family: Verdana, Arial, Helvetica, sans-serif;}
+fieldset.polls {font-family: "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;}
+fieldset.polls dd div {font-family: Arial, Helvetica, sans-serif;}
+fieldset {font-family: Verdana, Helvetica, Arial, sans-serif;}
+input {font-family: Verdana, Helvetica, Arial, sans-serif;}
+select {font-family: Verdana, Helvetica, Arial, sans-serif;}
+select optgroup option {font-family: Verdana, Helvetica, Arial, sans-serif;}
+textarea {font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;}
+.message-box textarea {font-family: "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;}
+a.button1, input.button1, input.button3, a.button2, input.button2 {font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;}
+a.forumtitle {font-family: "Trebuchet MS", Helvetica, Arial, Sans-serif;}
+a.topictitle {font-family: "Trebuchet MS", Helvetica, Arial, Sans-serif;}
+*/
+
+
+
+/* Everything Else */
+
+h1 {
+	/* Forum name */
+	font-weight: 300;
+	font-size: 30px;
+}
+
+h2 {
+	/* Forum header titles */
+	font-weight: 300;
+	font-size: 2em;
+}
+
+h3 {
+	/* Sub-headers (also used as post headers, but defined later) */
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+h4 {
+	/* Forum and topic list titles */
+	font-size: 1.3em;
+}
+
+p {
+	font-size: 1.1em;
+}
+
+b, strong {
+	font-weight: 500;
+}
+
+i, em {
+	font-style: italic;
+}
+
+.site-description p {
+	font-size: 14px;	
+}
+
+ul.linklist > li > a, ul.linklist > li > div > a {
+	font-size: 16px;
+}
+
+ul.linklist > li.breadcrumbs {
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.dropdown li {
+	font-size: 14px;
+}
+
+.breadcrumbs .crumb:before {
+	font-weight: 500;
+}
+
+table.table1 thead th {
+	font-weight: normal;
+	font-size: 1em;
+}
+
+table.table1 td {
+	font-size: 1.1em;
+}
+
+table.info tbody th {
+	font-weight: normal;
+}
+
+dl.details {
+	/*font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;*/
+	font-size: 1.1em;
+}
+
+fieldset.fields1 ul.recipients  input.button2{
+	font-size: 0.8em;
+	margin-right: 0;
+	padding: 0;
+}
+
+.action-bar {
+	font-size: 14px;
+}
+
+.pagination > ul > li {
+	font-size: 100%;
+}
+
+.pagination li.active span {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.pagination li.page-jump a i {
+	font-size: 21px;
+}
+
+.row .pagination li a, .row .pagination li span {
+    font-size: 14px;
+}
+
+.phpbb_alert div.alert_text > p,
+.phpbb_alert div.alert_text > label,
+.phpbb_alert div.alert_text > select,
+.phpbb_alert div.alert_text > textarea,
+.phpbb_alert div.alert_text > input {
+	font-size: 1.1em;
+}
+
+.small {
+	font-size: 0.9em !important;
+}
+
+.error {
+	font-weight: 500;
+	font-size: 1em;
+}
+
+div.rules {
+	font-size: 1.1em;
+}
+
+.member-search strong {
+	font-size: 0.95em;
+}
+
+.dropdown-extended ul li {
+	font-size: 0.95em;
+}
+
+.dropdown-extended .header {
+	font-weight: 500;
+	font-size: 13px;
+}
+
+.dropdown-extended .header .header_settings {
+	font-weight: normal;
+}
+
+.dropdown-extended .footer {
+	font-size: 12px;
+}
+
+.notification_list ul li p {
+	margin-bottom: 4px;
+	font-size: 13px;
+}
+
+.notification_list p.notification-time {
+	font-size: 12px;
+}
+
+.notification_list p.notifications_title {
+	font-size: 15px !important;
+}
+
+.notification_list p.notifications_title strong {
+	font-weight: 500;
+}
+
+.notification_list p.notifications_time {
+	font-size: 11px !important;
+}
+
+.badge {
+	font-size: 10px;
+}
+
+.button {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.contact-icons.dropdown-contents {
+	font-size: 0;
+}
+
+.post-buttons .button span {
+	font-size: 0;
+}
+
+.post-buttons .dropdown a {
+	font-size: 1.2em;
+}
+
+ul.topiclist dt {
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+.forumlist_grid ul.topiclist dt {
+	font-size: 1em;	
+}
+
+li.header dt, li.header dd {
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
+li.header dt {
+	font-weight: 500;
+}
+
+dd.posts, dd.topics, dd.views, dd.extra, dd.mark {
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+li.row dd.simpleposts span {
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
+dd.lastpost, dd.redirect, dd.moderation, dd.time, dd.info {
+	font-size: 1.1em;
+}
+
+dd.option {
+	font-size: 1.1em;
+}
+
+dd.option {
+	font-size: 1.1em;
+}
+
+.postbody .ignore {
+	font-size: 1.1em;
+}
+
+.postbody h3.first {
+	/* The first post on the page uses this */
+	font-size: 1.1em;
+}
+
+.postbody h3 {
+	/* Postbody requires a different h3 format - so change it here */
+	font-size: 1.1em;
+}
+
+.postbody .content {
+	font-size: 1.1em;
+}
+
+.content {
+	font-size: 1em;
+}
+
+.content h2, .panel h2 {
+	font-weight: normal;
+	font-size: 1.6em;
+}
+
+.panel p {
+	font-size: 1.2em;
+}
+
+.content p {
+	font-size: 1.2em;
+}
+
+dl.faq {
+	font-size: 1.1em;
+}
+
+dl.faq dt {
+	font-weight: 500;
+}
+
+.content dl.faq {
+	font-size: 1.2em;
+}
+
+/* Post author */
+p.author {
+	font-size: 1.1em;
+}
+
+/* Post signature */
+.signature {
+	font-size: 1.1em;
+}
+
+/* Post noticies */
+.notice {
+	font-size: 1em;
+}
+
+/* Quote block */
+blockquote {
+	font-size: 1em;
+}
+
+blockquote blockquote {
+	/* Nested quotes */
+	font-size: 1em;
+}
+
+blockquote cite {
+	/* Username/source of quoter */
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.9em;
+}
+
+blockquote cite cite {
+	font-size: 1em;
+}
+
+blockquote cite > div {
+	font-weight: normal;
+}
+
+/* Code block */
+.codebox {
+	font-size: 1em;
+}
+
+.codebox p {
+	font-size: 0.8em !important;
+	font-weight: 500;
+}
+
+.codebox code {
+	font: 0.9em Monaco, "Andale Mono","Courier New", Courier, monospace;
+}
+
+.attachbox p {
+	font-weight: normal;
+}
+
+.attachbox p.stats {
+	font-weight: normal;
+}
+
+div.inline-attachment p {
+	font-size: 100%;
+}
+
+dl.file {
+	display: block;
+}
+
+dl.file dt {
+	font-weight: 500;
+}
+
+dl.thumbnail dd {
+	font-style: italic;
+}
+
+.attachbox dl.thumbnail dd {
+	font-size: 100%;
+}
+
+fieldset.polls dl.voted {
+	font-weight: 500;
+}
+
+fieldset.polls dt {
+	font-size: 1.1em;
+}
+
+fieldset.polls dd {
+	font-size: 1.1em;
+}
+
+fieldset.polls dd div {
+	font-weight: 500;
+}
+
+.vote-submitted {
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.postprofile strong {
+	font-weight: normal;
+}
+
+.postprofile .profile-posts a {
+	font-weight: normal;
+}
+
+dd.profile-warnings {
+	font-weight: 500;
+}
+
+.dl_links strong {
+	font-weight: 500;
+}
+
+#memberlist tr.inactive, #team tr.inactive {
+	font-style: italic;
+}
+
+.panel-container table.table1 thead th {
+	font-weight: 500;
+}
+
+.panel-container table.table1 tbody th {
+	font-style: italic;
+}
+
+.panel-container .postbody p.author {
+	font-size: 1.1em;
+}
+
+.tabs .tab, .minitabs .tab {
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.responsive-tab > a.responsive-tab-link {
+	font-size: 1.6em;
+}
+
+.tabs .dropdown, .minitabs .dropdown {
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+/* Default list state */
+.navigation li {
+	display: inline;
+	font-weight: 500;
+	margin: 1px 0;
+	padding: 0;
+}
+
+dl.mini dt {
+	font-weight: 500;
+}
+
+.friend-online {
+	font-weight: 500;
+}
+
+.friend-offline {
+	font-style: italic;
+}
+
+.panel-container .panel p {
+	font-size: 1em;
+}
+
+.panel-container .panel ol {
+	margin-left: 2em;
+	font-size: 1em;
+}
+
+.tabs .dropdown, .minitabs .dropdown {
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+/* General form styles
+----------------------------------------*/
+fieldset {
+	font-size: 1.1em;
+}
+
+input {
+	font-weight: normal;
+	font-size: 1em;
+}
+
+select {
+	font-weight: normal;
+	font-size: 1em;
+}
+
+textarea {
+	font-size: 1em;
+}
+
+/* Form elements */
+dt label {
+	font-weight: 500;
+}
+
+.dropdown fieldset.display-options {
+	font-size: 1em;
+}
+
+.message-box textarea {
+	font-size: 1em;
+}
+
+/* Form button styles
+---------------------------------------- */
+input.button1, input.button2 {
+	font-size: 1em;
+}
+
+a.button1, input.button1 {
+	font-weight: 500;
+}
+
+input.button3 {
+	font-variant: small-caps;
+}
+
+input.disabled {
+	font-weight: normal;
+}
+
+.jumpbox-cat-link,
+.jumpbox-forum-link { font-weight: 500; }
+
+/* Links for forum/topic lists */
+a.forumtitle {
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+a.topictitle {
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+a.lastsubject {
+	font-weight: 500;
+	text-decoration: none;
+}
+
+/* Profile links */
+.postprofile {
+	font-size: 1.1em;
+}
+
+
+.postprofile a, .postprofile dt.author a {
+	font-weight: 500;
+	text-decoration: none;
+}
+
+/* Profile searchresults */
+.search .postprofile a {
+	font-weight: normal;
+}
+
+.top {
+	font-size: 12px;
+}
+
+/* Coloured usernames */
+.username-coloured {
+	font-weight: 500;
+}
+
+.top {
+	font-size: 12px;
+}
+
+.profile_widget {
+	font-size: 1em;	
+}

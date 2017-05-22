@@ -1,0 +1,12 @@
+/* New code for new things */
+#inner-wrap {
+	background: #FFFFFF;
+	overflow: hidden;
+	position: relative;
+	margin-top: -50px !important;
+	z-index: 3;
+}
+
+.viewtopic_wrapper {
+	padding: 10px 10px 5px;
+}

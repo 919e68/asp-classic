@@ -1,0 +1,1 @@
+<%= IsEmpty(Request.QueryString("id")) %>

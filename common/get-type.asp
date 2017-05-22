@@ -1,0 +1,3 @@
+<%
+	Response.Write(TypeName("Test"))
+%>
